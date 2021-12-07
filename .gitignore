@@ -30,7 +30,15 @@
 .pub-cache/
 .pub/
 /build/
+#
+# Android related
+**/android/.gradle
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
 
+
+#
 # Web related
 lib/generated_plugin_registrant.dart
 
@@ -45,7 +53,4 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-**/android/.gradle
-**/android/captures/
-**/android/local.properties
-**/android/**/GeneratedPluginRegistrant.java
+
