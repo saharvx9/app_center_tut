@@ -18,12 +18,12 @@ flutter doctor
 
 flutter build apk --release
 
-# if you need build bundle (AAB) in addition to your APK, uncomment line below and last line of this script.
-flutter build appbundle --release
+## if you need build bundle (AAB) in addition to your APK, uncomment line below and last line of this script.
+#flutter build appbundle --release
 
 echo "move to custom path apk"
 #build/app/outputs/flutter-apk
 mkdir -p android/app/build/outputs/apk/; mv build/app/outputs/flutter-apk/app-release.apk $_
 
-echo "move to custom path bundle"
-mkdir -p android/build/outputs/bundle/; mv build/app/outputs/bundle/release/app-release.aab $_
+#echo "move to custom path bundle"
+#mkdir -p android/build/outputs/bundle/; mv build/app/outputs/bundle/release/app-release.aab $_
