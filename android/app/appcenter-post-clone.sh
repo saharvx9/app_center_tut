@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+
 # place this script in project/android/app/
 cd ..
 # fail if any command fails
