@@ -23,7 +23,7 @@ flutter build appbundle --release
 
 echo "move to custom path apk"
 #build/app/outputs/flutter-apk
-mkdir -p `pwd`/build/outputs/apk/; mv build/app/outputs/flutter-apk/app-release.apk $_
+mkdir -p android/app/build/outputs/apk/; mv build/app/outputs/flutter-apk/app-release.apk $_
 
 echo "move to custom path bundle"
-mkdir -p `pwd`/build/outputs/bundle/; mv build/app/outputs/bundle/release/app-release.aab $_
+mkdir -p android/build/outputs/bundle/; mv build/app/outputs/bundle/release/app-release.aab $_
