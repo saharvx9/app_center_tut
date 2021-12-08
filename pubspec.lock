@@ -13,7 +13,7 @@ packages:
     description:
       path: "."
       ref: backkround_click_test
-      resolved-ref: "7af2df920c329a510bed7438f3467131d73a229a"
+      resolved-ref: f7f80e4d663f04b5db3aeea471fe7b6ec469a391
       url: "git://github.com/saharvx9/awesome_notifications.git"
     source: git
     version: "0.0.6+10"
