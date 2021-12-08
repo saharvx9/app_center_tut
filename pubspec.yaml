@@ -35,10 +35,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 #  awesome_notifications: ^0.6.18+2
-  awesome_notifications:
-    git:
-      url: git://github.com/saharvx9/awesome_notifications.git
-      ref: backkround_click_test
+#  awesome_notifications:
+#    git:
+#      url: git://github.com/saharvx9/awesome_notifications.git
+#      ref: backkround_click_test
 
 dev_dependencies:
   flutter_test:
