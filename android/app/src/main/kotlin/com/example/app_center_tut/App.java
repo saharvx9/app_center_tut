@@ -1,7 +1,4 @@
 package com.example.app_center_tut;
-
-import static com.microsoft.appcenter.AppCenter.*;
-
 import android.app.Application;
 
 import com.microsoft.appcenter.AppCenter;
@@ -12,7 +9,7 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        start(this, "511f74e5-a948-47ee-b239-6b68437e1757",
+        AppCenter.start(this, "511f74e5-a948-47ee-b239-6b68437e1757",
                 Analytics.class, Crashes.class);
     }
 }
