@@ -11,12 +11,10 @@ packages:
   awesome_notifications:
     dependency: "direct main"
     description:
-      path: "."
-      ref: background_click
-      resolved-ref: "528b5fb54dfe39a0e22d0a217203b19251c45c74"
-      url: "git://github.com/saharvx9/awesome_notifications.git"
-    source: git
-    version: "0.0.6+10"
+      name: awesome_notifications
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.18+2"
   boolean_selector:
     dependency: transitive
     description:
@@ -125,6 +123,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.1.0"
+  rxdart:
+    dependency: transitive
+    description:
+      name: rxdart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.27.3"
   sky_engine:
     dependency: transitive
     description: flutter
